@@ -1,2 +1,2 @@
 # Layout-2
-Second Layout for the assignment given.
+Second Layout of the assignment given.
