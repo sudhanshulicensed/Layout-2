@@ -173,3 +173,25 @@ a{
     padding-top: 4em;
     
 }
+
+/* Responsiveness */
+
+@media(max-width: 1920px) {
+    
+}
+
+@media(max-width: 1440px) {
+
+}
+
+@media(max-width: 960px) {
+
+}
+
+@media(max-width: 600px) {
+
+}
+
+@media(max-width: 320px) {
+    
+}
