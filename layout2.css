@@ -79,7 +79,6 @@ a{
 
 .hero-button p{
     padding: 7px 0;
-    /* line-height: 230%; */
     text-align: center;
     color: #fff;
     font-size: 0.9rem;
@@ -102,7 +101,8 @@ a{
     height: 20em;
     margin-right: 2%;
     padding: 0.5%;
-    border: 1px solid #b2bec3;
+    border: 1px solid #dfe6e9;
+    border-radius: 4px;
 }
 
 .box:nth-of-type(4){
@@ -114,53 +114,48 @@ a{
     height: 10em;
 }
 
-.box-title{
+.title{
     text-align: center;
-    padding: 5% 0;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    margin: 10px 0;
     color: #2d3436;
 }
 
-.box-content{
-    text-align: justify;
-    /* padding: 0 15%; */
+.content{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 0.9em;
+    margin-bottom: 5px;
+    text-align: justify;
     color: #2d3436;
+}
+
+.box-btn{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 .btn{
-    display: block;
-    width: 70%;
-    /* height: 20px; */
-    /* background-color: rgb(224, 141, 33); */
-    margin: 5% auto;
-}
-
-.in-box{
     display: inline-block;
+    border-radius: 5px;
 }
 
 .buy{
-    margin-right: 2px;
-    padding: 5px 8px;
+    text-align: center;
+    width: 42%;
+    padding: 6px 5px;
     background-color: rgb(45, 152, 233);
     color: #fff;
-    border-radius: 4px;
-
 }
 
 .info{
-    padding: 5px 8px;
-    border: 1px solid #b2bec3;
-    border-radius: 4px;
-    color: #2d3436;
-    /* background-color: #636e72; */
+    text-align: center;
+    padding: 6px 5px;
+    width: 42%;
+    background-color: #fff;
+    border: 1px solid #dfe6e9;
 }
 
 /* Footer */
@@ -171,27 +166,232 @@ a{
     border-top: 1px solid #b2bec3;
     height: 5em;
     padding-top: 4em;
-    
+    color: #2d3436;
 }
 
 /* Responsiveness */
 
 @media(max-width: 1920px) {
-    
+    .box{
+        height: 26em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 15em;
+    }
+
+    .buy{
+        width: 44%;
+    }
+
+    .info{
+       width: 45%;
+       margin-left: 1px;
+    }
+
+
 }
 
 @media(max-width: 1440px) {
+    .box{
+        height: 24em;
+    }
 
+    .box img{
+        width: 100%;
+        height: 13em;
+    }
+
+    .buy{
+        width: 42%;
+    }
+
+    .info{
+       width: 44%;
+       margin-left: 1px;
+    }
 }
 
-@media(max-width: 960px) {
+@media(max-width: 1024px) {
+    .box{
+        width: 23.1%;
+        height: 18em;
+    }
 
-}
+    .box img{
+        width: 100%;
+        height: 8em;
+    }
 
-@media(max-width: 600px) {
-
-}
-
-@media(max-width: 320px) {
+    .buy{
+        text-align: center;
+        width: 40%;
+        color: #fff;
+        font-size: 0.6rem;
+    }
     
+    .info{
+        width: 40%;
+        font-size: 0.6rem;
+    }
+
+    .title{
+        font-size: 1em;
+    }
+
+    .content{
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 768px) {
+    .box:nth-of-type(2n + 0){
+        margin-right: 0;
+    }
+
+    .box{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 48.5%;
+        height: 21em;
+        margin-right: 2%;
+        padding: 0.5%;
+        margin-bottom: 15px;
+    }
+
+    .box img{
+        width: 100%;
+        height: 11em;
+    }
+
+    .title{
+        font-size: 1.5rem;
+        color: #2d3436;
+    }
+    
+    .content{
+        width: 60%;
+    }
+
+    .box-btn{
+        width: 60%;
+    }
+    
+    
+    .buy{
+        width: 42%;
+    }
+    
+    .info{
+        width: 42%;
+    }
+
+}
+
+@media(max-width: 425px) {
+    .hero{
+        box-sizing: border-box;
+        /* width: 90%; */
+        margin: 3em auto 1em auto;
+        height: 14em;
+        background-color: #dfe6e9;
+        padding: 3rem;
+        border-radius: 5px;
+    }
+
+/* Hero Heading */
+.hero-heading{
+    font-size: 1.5rem;
+    padding: 2px 0;
+    color: #2d3436;
+}
+
+/* Hero Content */
+.hero-content{
+    font-size: 0.8rem;
+    padding: 4px 0 0.5em 0;
+    color: #2d3436;
+    text-align: justify;
+}
+
+/* Hero Button */
+
+.hero-button{
+    border-radius: 4px;
+    padding: 1px 0;
+    width: 40%;
+    height: 2em;
+    background-color: rgb(45, 152, 233);
+}
+
+.hero-button p{
+    padding: 7px 0;
+    /* line-height: 230%; */
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+    .box:nth-of-type(1){
+        margin-right: 0;
+    }
+
+    .box{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+        height: 22em;
+    }
+    
+    .box img{
+        width: 100%;
+        height: 13em;
+    }
+
+    .buy{
+        width: 43%;
+    }
+    
+    .info{
+        width: 43%;
+    }
+
+    .footer{
+        width: 100%;
+        margin-top: 2em;
+        border-top: 1px solid #b2bec3;
+        height: 4em;
+        padding-top: 2em;
+    }
+
+}
+
+@media(max-width: 375px) {
+    li{
+        padding: 0.6em 1.8em 0.6em 0;
+        list-style-type: none;
+        display: inline-block;
+        color: #636e72;
+        font-size: 0.5em;
+    }
+
+    .hero{
+        box-sizing: border-box;
+        /* width: 90%; */
+        margin: 2em auto 1em auto;
+        height: 12em;
+    }
+
+/* Hero Heading */
+.hero-heading{
+    font-size: 1rem;
+}
+
+/* Hero Content */
+.hero-content{
+    font-size: 0.7rem;
+}
+
 }
