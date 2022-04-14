@@ -171,7 +171,29 @@ a{
 
 /* Responsiveness */
 
-@media(max-width: 1920px) {
+@media(min-width: 1793px) and (max-width: 1920px) {
+    
+    /* Hero Content */
+    .hero-content{
+        font-size: 1.2rem;
+        padding: 2px 0 0.5em 0;
+        color: #2d3436
+    }
+    
+    /* Hero Button */
+    
+    .hero-button{
+        border-radius: 4px;
+        height: 2em;
+        background-color: rgb(45, 152, 233);
+    }
+    
+    .hero-button p{
+        text-align: center;
+        color: #fff;
+        font-size: 1rem;
+    }
+
     .box{
         height: 26em;
     }
@@ -182,18 +204,50 @@ a{
     }
 
     .buy{
-        width: 44%;
+        width: 44.5%;
+        padding: 10px 5px;
+        font-size: 1.2em;
     }
 
     .info{
-       width: 45%;
-       margin-left: 1px;
+        padding: 10px 5px;
+        width: 44.5%;
+        margin-left: 1px;
+        font-size: 1.2em;
     }
-
-
 }
 
-@media(max-width: 1440px) {
+/* @media(min-width: ) */
+@media(max-width: 1792px){
+
+    .hero-content{
+        font-size: 1.1rem;
+        padding: 2px 0 0.5em 0;
+    }
+
+    .box{
+        height: 23em;
+    }
+
+    .box img{
+        height: 12em;
+    }
+
+    .buy{
+        width: 44%;
+        padding: 10px 5px;
+        font-size: 1.2em;
+    }
+
+    .info{
+        padding: 10px 5px;
+        width: 44;
+        margin-left: 3px;
+        font-size: 1.2em;
+    }
+}
+
+@media(min-width: 1411px) and (max-width: 1512px) {
     .box{
         height: 24em;
     }
@@ -205,15 +259,193 @@ a{
 
     .buy{
         width: 42%;
+        font-size: 1.0em;
     }
 
     .info{
        width: 44%;
        margin-left: 1px;
+       font-size: 1.0em;
     }
 }
 
-@media(max-width: 1024px) {
+@media(min-width: 1325px) and (max-width: 1411px) {
+    .box{
+        height: 24em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 13em;
+    }
+
+    .buy{
+        width: 42%;
+        font-size: 0.9rem;
+    }
+
+    .info{
+        font-size: 0.9rem;
+       width: 42%;
+       margin-left: 3px;
+    }
+}
+
+@media(min-width: 1256px) and (max-width: 1324px) {
+    .box{
+        height: 23em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 12em;
+    }
+
+    .buy{
+        width: 41.5%;
+        font-size: 0.9rem;
+    }
+
+    .info{
+        font-size: 0.9rem;
+        width: 41.5%;
+        margin-left: 3px;
+    }
+}
+
+@media(min-width: 1230px) and (max-width: 1255px) {
+    
+    .hero-content{
+        font-size: 1rem;
+        padding: 2px 0 0.5em 0;
+        color: #2d3436
+    }
+
+    .hero-button{
+        width: 12%;
+        padding: 6px 0;
+    }
+    
+    .box{
+        height: 21.5em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 11em;
+    }
+
+    .title{
+        font-size: 1.4rem;
+    }
+
+    .content{
+        font-size: 0.8em;
+    }
+
+    .buy{
+        width: 41%;
+        font-size: 0.8rem;
+    }
+
+    .info{
+        font-size: 0.8rem;
+        width: 41%;
+        margin-left: 3px;
+    }
+}
+
+@media(min-width: 1067px) and (max-width: 1229px) {
+    .hero-content{
+        font-size: 1rem;
+        padding: 2px 0 0.5em 0;
+        color: #2d3436
+    }
+
+    .hero-button{
+        width: 13%;
+        padding: 6px 0;
+    }
+    
+    .box{
+        width: 23.1%;
+        height: 20em;
+        margin-right: 2%;
+        padding: 0.5%;
+        border: 1px solid #dfe6e9;
+        border-radius: 4px;
+    }
+
+    .box img{
+        width: 100%;
+        height: 10em;
+    }
+
+    .buy{
+        width: 40%;
+        font-size: 0.8rem;
+    }
+
+    .info{
+        font-size: 0.8rem;
+        width: 40%;
+        margin-left: 3px;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .content{
+        font-size: 0.7em;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1066px) {
+    .box{
+        width: 23.1%;
+        height: 20em;
+        margin-right: 2%;
+        padding: 0.5%;
+        border: 1px solid #dfe6e9;
+        border-radius: 4px;
+    }
+
+    .box img{
+        width: 100%;
+        height: 10em;
+    }
+    .hero-button{
+        width: 13%;
+        padding: 6px 0;
+    }
+
+    .buy{
+        width: 39.5%;
+        font-size: 0.7rem;
+    }
+
+    .info{
+        font-size: 0.7rem;
+        width: 39.5%;
+        margin-left: 3px;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .content{
+        font-size: 0.6rem;
+    }
+}
+
+@media(min-width: 972px) and (max-width: 1024px) {
+    
+    .hero-button{
+        width: 14%;
+        padding: 6px 0;
+    }
     .box{
         width: 23.1%;
         height: 18em;
@@ -226,14 +458,91 @@ a{
 
     .buy{
         text-align: center;
-        width: 40%;
+        width: 39%;
         color: #fff;
         font-size: 0.6rem;
     }
     
     .info{
-        width: 40%;
+        width: 39%;
         font-size: 0.6rem;
+        margin-left: 3px;
+    }
+
+    .title{
+        font-size: 0.8em;
+    }
+
+    .content{
+        font-size: 0.8em;
+    }
+}
+
+@media(min-width: 929px) and (max-width: 971px) {
+    .hero-button{
+        width: 15%;
+        padding: 6px 0;
+    }
+    
+    .box{
+        width: 23.1%;
+        height: 16.5em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 8em;
+    }
+
+    .buy{
+        text-align: center;
+        width: 38.5%;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+    
+    .info{
+        width: 38.5%;
+        font-size: 0.6rem;
+        margin-left: 3px;
+    }
+
+    .title{
+        font-size: 1.1em;
+    }
+
+    .content{
+        font-size: 0.7em;
+    }
+}
+
+@media(min-width: 895px) and (max-width: 928px) {
+    .hero-button{
+        width: 15%;
+        padding: 6px 0;
+    }
+
+    .box{
+        width: 23%;
+        height: 16.5em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 8em;
+    }
+
+    .buy{
+        text-align: center;
+        width: 38%;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+    
+    .info{
+        width: 38%;
+        font-size: 0.6rem;
+        margin-left: 3px;
     }
 
     .title{
@@ -241,11 +550,103 @@ a{
     }
 
     .content{
-        font-size: 1em;
+        font-size: 0.6em;
     }
 }
 
-@media(max-width: 768px) {
+@media(min-width: 800px) and (max-width: 895px) {
+    .hero-content{
+        font-size: 0.9em;
+    }
+    .hero-button{
+        width: 16%;
+        padding: 6px 0;
+    }
+
+    .box{
+        width: 23%;
+        height: 16.5em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 8em;
+    }
+
+    .buy{
+        text-align: center;
+        width: 37.5%;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+    
+    .info{
+        width: 37.5%;
+        font-size: 0.6rem;
+        margin-left: 3px;
+    }
+
+    .title{
+        font-size: 1em;
+    }
+
+    .content{
+        font-size: 0.6em;
+    }
+}
+
+@media(min-width: 797px) and (max-width: 859px) {
+
+    .hero-button{
+        width: 16%;
+        padding: 6px 0;
+    }
+
+    .hero-content{
+        font-size: 0.8em;
+    }
+    .box{
+        width: 23%;
+        height: 16em;
+    }
+
+    .box img{
+        width: 100%;
+        height: 8em;
+    }
+
+    .buy{
+        text-align: center;
+        width: 36.5%;
+        color: #fff;
+        font-size: 0.5rem;
+    }
+    
+    .info{
+        width: 36.5%;
+        font-size: 0.5rem;
+        margin-left: 3px;
+    }
+
+    .title{
+        font-size: 0.9em;
+    }
+
+    .content{
+        font-size: 0.5em;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 796px) {
+    .hero-button{
+        width: 18%;
+        padding: 5px 0;
+    }
+
+    .hero-content{
+        font-size: 0.8em;
+    }
+
     .box:nth-of-type(2n + 0){
         margin-right: 0;
     }
@@ -254,7 +655,7 @@ a{
         box-sizing: border-box;
         display: inline-block;
         width: 48.5%;
-        height: 21em;
+        height: 22.5em;
         margin-right: 2%;
         padding: 0.5%;
         margin-bottom: 15px;
@@ -289,7 +690,164 @@ a{
 
 }
 
+@media(min-width: 715px) and (max-width: 766px) {
+
+    .hero-button{
+        width: 19%;
+        padding: 4px 0;
+    }
+
+    .hero-content{
+        font-size: 0.8em;
+    }
+    .box{
+        width: 48%;
+        margin-right: 1.5%;
+        margin-bottom: 15px;
+    }
+}
+
+@media(min-width: 594px) and (max-width: 714px) {
+
+    .hero-button{
+        width: 26%;
+        padding: 4px 0;
+    }
+    .hero-heading{
+        font-size: 2.8rem;
+    }
+    .hero-content{
+        font-size: 0.7em;
+    }
+
+    .box{
+        width: 48%;
+        margin-right: 1.5%;
+        margin-bottom: 15px;
+    }
+
+    .buy{
+        width: 40%;
+    }
+    
+    .info{
+        width: 40%;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 489px) and (max-width: 593px) {
+
+    .hero-button{
+        width: 28%;
+        padding: 4px 0;
+    }
+    .hero-heading{
+        font-size: 2.6rem;
+    }
+    .hero-content{
+        font-size: 0.7em;
+    }
+    .box{
+        width: 48%;
+        height: 23.5em; 
+        margin-right: 1.5%;
+        margin-bottom: 15px;
+    }
+    .title{
+        font-size: 1.2em;
+    }
+    .btn{
+        font-size: 0.7rem;
+        width: 38%;
+    }
+}
+
+@media(min-width: 453px) and (max-width: 488px){
+    .hero-button{
+        width: 30%;
+        padding: 3px 0;
+    }
+    .hero-heading{
+        font-size: 2.5rem;
+    }
+    .hero-content{
+        font-size: 0.7em;
+    }
+
+    .box{
+        width: 48%;
+        height: 23.5em; 
+        margin-right: 1.2%;
+        margin-bottom: 15px;
+    }
+    .title{
+        font-size: 1.2em;
+    }
+    .btn{
+        font-size: 0.7rem;
+        width: 38%;
+    }
+}
+@media(min-width: 431px) and (max-width: 452px) {
+
+    .hero-button{
+        width: 35%;
+        padding: 3px 0;
+    }
+    .hero-heading{
+        font-size: 2.1rem;
+    }
+    .hero-content{
+        font-size: 0.7em;
+    }
+    .box{
+        width: 48%;
+        height: 24em; 
+        margin-right: 1%;
+        margin-bottom: 15px;
+    }
+    .title{
+        font-size: 1.2em;
+    }
+    .btn{
+        font-size: 0.7rem;
+        width: 38%;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 430px) {
+    .hero-button{
+        width: 35%;
+        padding: 3px 0;
+    }
+    .hero-heading{
+        font-size: 2.1rem;
+    }
+    .hero-content{
+        font-size: 0.7em;
+    }
+
+    .box{
+        width: 48%;
+        height: 24em; 
+        margin-right: 1%;
+        margin-bottom: 15px;
+    }
+    .title{
+        font-size: 1.2em;
+    }
+    .btn{
+        font-size: 0.7rem;
+        width: 38%;
+    }
+}
 @media(max-width: 425px) {
+
+    
     .hero{
         box-sizing: border-box;
         /* width: 90%; */
@@ -309,8 +867,8 @@ a{
 
 /* Hero Content */
 .hero-content{
-    font-size: 0.8rem;
-    padding: 4px 0 0.5em 0;
+    font-size: 0.7rem;
+    padding: 2px 0 0.5em 0;
     color: #2d3436;
     text-align: justify;
 }
@@ -342,7 +900,8 @@ a{
         box-sizing: border-box;
         display: inline-block;
         width: 100%;
-        height: 22em;
+        height: 24.5em;
+        margin-bottom: 10px;
     }
     
     .box img{
@@ -366,6 +925,13 @@ a{
         padding-top: 2em;
     }
 
+    li{
+        padding: 0.6em 1.2em 0.6em 0;
+        list-style-type: none;
+        display: inline-block;
+        color: #636e72;
+    }
+
 }
 
 @media(max-width: 375px) {
@@ -374,14 +940,15 @@ a{
         list-style-type: none;
         display: inline-block;
         color: #636e72;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 
     .hero{
         box-sizing: border-box;
         /* width: 90%; */
-        margin: 2em auto 1em auto;
-        height: 12em;
+        margin: 1.5em auto 1em auto;
+        height: 10em;
+        padding: 2em;
     }
 
 /* Hero Heading */
@@ -391,7 +958,22 @@ a{
 
 /* Hero Content */
 .hero-content{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+}
+
+
+/* Hero Button */
+
+.hero-button{
+    border-radius: 4px;
+    padding: 0px 0;
+    width: 40%;
+    height: 2em;
+    background-color: rgb(45, 152, 233);
+}
+
+.hero-button p{
+    font-size: 0.8em;
 }
 
 }
